@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.device.aquafox.fragment.SecurityFragment"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/serviceNombre"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Servicio"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="21sp"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="150dp"
+                android:layout_height="36dp"
+                android:paddingLeft="10dp"
+                android:text="Clave actual"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/claveActual"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Clave Actual"
+                android:textColorHint="#208FFF"
+                android:layout_marginLeft="0dp"
+                android:background="#00000000"
+                android:inputType="textPassword"
+                android:letterSpacing="0.1"
+                android:textSize="12dp"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="150dp"
+                android:layout_height="36dp"
+                android:paddingLeft="10dp"
+                android:text="Clave Nueva"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/claveNueva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Clave Nueva"
+                android:textColorHint="#208FFF"
+                android:layout_marginLeft="0dp"
+                android:background="#00000000"
+                android:inputType="textPassword"
+                android:letterSpacing="0.1"
+                android:textSize="12dp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutBtn"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnClave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton_redondo"
+                android:text="Guardar"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:padding="16dp"
+                android:letterSpacing="0.2"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarClave"
+        android:progressDrawable="@drawable/progress1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+</LinearLayout>

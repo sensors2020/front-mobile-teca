@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c72febe4-4412-4f55-8a8a-975e4f076c7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/AliasRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/ApiRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/BodyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/BodyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/Clave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/Consumo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/ConsumoReporte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/Dashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/Error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/FilterReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/HeadersResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/ReportLineRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/ReportPdfAquaRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/ServicesConsumo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/data/TokenRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/fragment/DetalleServiceFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/fragment/SecurityFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/service/APIClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/service/APIInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/service/PreferencesUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/service/SaveSharedPreference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/dashboard/ServiceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/dashboard/ServicesAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/home/HomeFragment22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/home/ServiceAquaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/report/FilterAquaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/report/PeriodoAquaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/report/ReportFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/report/ReportViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/report/Tabla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/report/TemplatePDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anim/move_left_in_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anim/move_left_out_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anim/move_right_in_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anim/move_right_out_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-v24/buttonstyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-v24/fondo_blanco.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-v24/gradientbackground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-v24/progress1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/documento.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/medidor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/profiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/seguridad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/tabla_cabecera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/tabla_celda.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/telefono.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragment_detalle_service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragment_report.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragment_security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_reportes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_servicios.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listtado_servicios.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values/arrays.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../values/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/device/aquafox/fragment/ListaFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/device/aquafox/fragment/MyListaOptionsAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/device/aquafox/fragment/OpcionesFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/device/aquafox/fragment/ProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/fragment/ProfileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/dashboard/DashboardFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/dashboard/DashboardFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/dashboard/DashboardViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/dashboard/DashboardViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/home/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/home/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/login/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/login/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/login/LoginViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/login/LoginViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/login/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/login/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/notifications/NotificationsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/device/aquafox/ui/notifications/NotificationsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragment_dashboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fragment_dashboard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragment_lista.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragment_lista_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragment_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fragment_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragment_notifications.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fragment_notifications.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragment_opciones.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../menu/bottom_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../menu/bottom_nav_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../navigation/mobile_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../build.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1eCgvHjfAxvbeZLwVmwvk6VhHvh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../DEPRECATED-sdk-android-master" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c72febe4-4412-4f55-8a8a-975e4f076c7d" name="Default Changelist" comment="" />
+      <created>1593831217635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593831217635</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

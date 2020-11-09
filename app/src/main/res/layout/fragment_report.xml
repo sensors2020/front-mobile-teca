@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+<!--
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/reportes"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="10dp" />
+-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutspinner"
+            android:layout_marginTop="30px"
+            android:gravity="center">
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown"/>
+
+        </LinearLayout>
+        <!--
+-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutBtn"
+            android:gravity="center">
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_redondo"
+            android:text="Buscar"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:letterSpacing="0.2"/>
+
+            <!--
+
+                <Button
+                    android:id="@+id/btnExporta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_redondo"
+                    android:text="Exportar"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="50px"
+                    android:padding="16dp"
+                    android:letterSpacing="0.2"
+                    tools:ignore="OnClick" />
+    -->
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:id="@+id/layoutTabla"
+            android:gravity="center">
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left">
+
+                <TextView
+                    android:id="@+id/textServicio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="20px"
+                    android:text="Servicio"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <!--
+                <TextView
+                    android:id="@+id/textCliente"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200px"
+                    android:layout_marginRight="20px"
+                    android:text="Cliente"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+                    -->
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left">
+
+                <TextView
+                    android:id="@+id/textSerie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="20px"
+                    android:text="Serie"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textAlias"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200px"
+                    android:layout_marginRight="20px"
+                    android:text="Alias"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left">
+
+                <TextView
+                    android:id="@+id/textPeriodo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100px"
+                    android:layout_marginRight="20px"
+                    android:text="Periodo"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+
+
+
+            <ScrollView
+                android:id="@+id/scrollvertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:layout_weight="1">
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/scrollhorizontal"
+                    android:scrollbars="horizontal"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TableLayout
+                            android:id="@+id/tabla"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </TableLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </ScrollView>
+
+
+        </LinearLayout>
+}
+
+
+        <!--
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart4"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+-->
+
+        <!--
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="8dp"
+            android:layout_toLeftOf="@+id/tvYMax"
+            android:layout_marginRight="5dp"
+            android:max="150"
+            android:paddingBottom="12dp" />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/seekBar2"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="35dp"
+            android:layout_toLeftOf="@+id/tvXMax"
+            android:layout_marginRight="5dp"
+            android:max="500"
+            android:paddingBottom="12dp" />
+    -->
+
+        <!--
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            android:paddingTop="60dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="30dp" />
+-->
+    </LinearLayout>
+
+    <!--
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/pie_chart"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="10dp" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            android:paddingTop="60dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="60dp" />
+        -->
+
+    <ProgressBar
+        android:id="@+id/progressBarHome"
+        android:progressDrawable="@drawable/progress1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+</LinearLayout>
